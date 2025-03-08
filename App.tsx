@@ -7,7 +7,7 @@ function App (){
     <View>
     <Text style={styles.negrito}>Lista de Afazeres Domésticos </Text>
     <Lista periodo= 'Manhã' tarefas={[
-      '1. lavar as roupas sujas. \n',
+      ' 1. lavar as roupas sujas. \n',
       ' 2. Lavar e guardar a louça. \n',
       ' 3. Limpar a pia da cozinha. \n',
       ' 4. Preparar o almoço. \n',
@@ -25,9 +25,9 @@ function App (){
     ]}/ >
 
     <Lista periodo= 'Noite' tarefas={[
-      '1. Levar o cachorro para passar \n',
+      ' 1. Levar o cachorro para passar \n',
       ' 2. Limpar os calçados utilizados durante o dia. \n ',
-      '3. Preparar o jantar \n' ,
+      ' 3. Preparar o jantar \n' ,
       
     ]}/ >
     
