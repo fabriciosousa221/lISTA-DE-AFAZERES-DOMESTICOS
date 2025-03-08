@@ -5,7 +5,7 @@ import {Lista} from './components/Lista'
 function App (){
   return (
     <View>
-    <Text style={styles.negrito}>                       Lista de Afazeres Domésticos </Text>
+    <Text style={styles.negrito}>Lista de Afazeres Domésticos </Text>
     <Lista periodo= 'Manhã' tarefas={[
       '1. lavar as roupas sujas. \n',
       ' 2. Lavar e guardar a louça. \n',
@@ -16,7 +16,7 @@ function App (){
     ]}/ >
    
     <Lista  periodo= 'Tarde' tarefas={[
-      '1. Limpar a mesa da cozinha. \n',
+      ' 1. Limpar a mesa da cozinha. \n',
       ' 2. Varrer e passa o pano nos cômodos da casa. \n',
       ' 3. Lavar e guarda a louça. \n',
       ' 4. Limpar a pia da cozinha. \n',
